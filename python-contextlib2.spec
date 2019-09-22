@@ -7,13 +7,13 @@
 Summary:	Backports and enhancements for the contextlib module
 Summary(pl.UTF-8):	Backport oraz rozszerzenia dla modułu contextlib
 Name:		python-contextlib2
-Version:	0.5.1
+Version:	0.6.0
 Release:	1
 License:	PSF
 Group:		Development/Languages/Python
 #Source0Download: https://pypi.python.org/pypi/contextlib2
 Source0:	https://pypi.python.org/packages/source/c/contextlib2/contextlib2-%{version}.tar.gz
-# Source0-md5:	b7f4c5a2b900c419b11b20f59838de1b
+# Source0-md5:	d03a631073b40073b5c41364ad8f5979
 URL:		http://contextlib2.readthedocs.org/
 %if %{with python2}
 BuildRequires:	python-devel >= 1:2.7
