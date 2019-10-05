@@ -11,8 +11,8 @@ Version:	0.6.0
 Release:	1
 License:	PSF
 Group:		Development/Languages/Python
-#Source0Download: https://pypi.python.org/pypi/contextlib2
-Source0:	https://pypi.python.org/packages/source/c/contextlib2/contextlib2-%{version}.tar.gz
+#Source0Download: https://pypi.org/simple/contextlib2/
+Source0:	https://files.pythonhosted.org/packages/source/c/contextlib2/contextlib2-%{version}.tar.gz
 # Source0-md5:	d03a631073b40073b5c41364ad8f5979
 URL:		http://contextlib2.readthedocs.org/
 %if %{with python2}
@@ -25,7 +25,7 @@ BuildRequires:	python-unittest2
 %if %{with python3}
 BuildRequires:	python3-devel >= 1:3.4
 %endif
-BuildRequires:	rpmbuild(macros) >= 1.710
+BuildRequires:	rpmbuild(macros) >= 1.714
 Requires:	python-modules >= 1:2.7
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
