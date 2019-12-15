@@ -8,7 +8,7 @@ Summary:	Backports and enhancements for the contextlib module
 Summary(pl.UTF-8):	Backport oraz rozszerzenia dla modułu contextlib
 Name:		python-contextlib2
 Version:	0.6.0
-Release:	2
+Release:	3
 License:	PSF
 Group:		Development/Languages/Python
 #Source0Download: https://pypi.org/simple/contextlib2/
